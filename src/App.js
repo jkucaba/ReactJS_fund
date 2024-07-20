@@ -4,7 +4,8 @@ import Welcome from './components/Welcome';
 
 import { FirstComponent as FC, SecondComponent as SC} from './components/MyComponent'; // named import / alias
 // mport { SecondComponent } from './components/MyComponent';
-import MyComponent from './components/MyComponent';
+import MC from './components/MyComponent'; // nie trzeba aliasu
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Greeting name = "Jakubson"/> 
       <FC />
       <SC />
-      <MyComponent/>
+      <MC />
+      <HelloWorld/ >
     </div>
   );
 }
