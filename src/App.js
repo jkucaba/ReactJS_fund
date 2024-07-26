@@ -7,6 +7,7 @@ import { FirstComponent as FC, SecondComponent as SC} from './components/MyCompo
 import MC from './components/MyComponent'; // nie trzeba aliasu
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
+import Employee from './components/Employee';
 
 function App() {
 
@@ -26,7 +27,7 @@ const skills = ["Java", "Kotlin", "SpringBoot"]
       <SC />
       <MC />*/}
       {/* <HelloWorld/ > */}
-      <Student 
+      {/* <Student 
       firstName = "Jakub"
       lastName = "Kubica"
       email = "jkubica@gmail.com"
@@ -36,11 +37,13 @@ const skills = ["Java", "Kotlin", "SpringBoot"]
       firstName = "Łukson"
       lastName = "Kula"
       email = "lkula@gmail.com"
-      />
+      /> */}
 
       {/* <Student
       data = {skills}
       /> */}
+
+      <Employee/>
     </div>
   );
 }
