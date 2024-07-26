@@ -4,7 +4,12 @@ const HelloWorld = () => {
 
     // const myElement = <h1>Hello World!</h1>
 
-    return React.createElement('div', null, React.createElement('h1', null, 'Hello World!'))
+    return (<div>
+        <h1>Title</h1>
+        <h2>Sub title</h2>
+        <p>paragraph</p>
+        <image></image>
+    </div>)
 }
 
 export default HelloWorld
