@@ -11,6 +11,13 @@ class Employee extends React.Component {
         }
     }
 
+    updateEmployee(){
+        this.setState({
+            firstName: "Jackob",
+            lastName: "Kubicki",
+            email: "jkubicki@gmail.com"
+        })
+    } 
 
     render(){
         return (
@@ -19,6 +26,7 @@ class Employee extends React.Component {
                 <p>{this.state.firstName}</p>
                 <p>{this.state.lastName}</p>
                 <p>{this.state.email}</p>
+                <button onClick={() => this.updateEmployee()}>Update Employee</button>
             </div>
         )
     }
