@@ -26,7 +26,7 @@ const skills = ["Java", "Kotlin", "SpringBoot"]
       <SC />
       <MC />*/}
       {/* <HelloWorld/ > */}
-      {/* <Student 
+      <Student 
       firstName = "Jakub"
       lastName = "Kubica"
       email = "jkubica@gmail.com"
@@ -36,11 +36,11 @@ const skills = ["Java", "Kotlin", "SpringBoot"]
       firstName = "Łukson"
       lastName = "Kula"
       email = "lkula@gmail.com"
-      /> */}
-
-      <Student
-      data = {skills}
       />
+
+      {/* <Student
+      data = {skills}
+      /> */}
     </div>
   );
 }
