@@ -1,4 +1,5 @@
-const Student = ({firstName, lastName, email}) => {
+const Student = (props) => {
+    const {firstName, lastName, email} = props
     return (
         <div>
             <h1>Student details</h1>
