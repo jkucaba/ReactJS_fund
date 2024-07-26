@@ -15,6 +15,7 @@ const student = {
   lastName: "Papryczek",
   email: "ppapryczek@gmail.com"
 }
+const skills = ["Java", "Kotlin", "SpringBoot"]
 
   return (
     <div className="App">
@@ -38,7 +39,7 @@ const student = {
       /> */}
 
       <Student
-      student = {student}
+      data = {skills}
       />
     </div>
   );
