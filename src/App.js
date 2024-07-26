@@ -25,7 +25,7 @@ const student = {
       <SC />
       <MC />*/}
       {/* <HelloWorld/ > */}
-      <Student 
+      {/* <Student 
       firstName = "Jakub"
       lastName = "Kubica"
       email = "jkubica@gmail.com"
@@ -35,11 +35,11 @@ const student = {
       firstName = "Łukson"
       lastName = "Kula"
       email = "lkula@gmail.com"
-      />
-
-      {/* <Student
-      student = {student}
       /> */}
+
+      <Student
+      student = {student}
+      />
     </div>
   );
 }
