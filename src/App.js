@@ -10,6 +10,7 @@ import Student from './components/Student';
 import Employee from './components/Employee';
 import User from './components/User';
 import EventHandling from './components/EventHandling';
+import ConditionalRendering from './components/ConditionalRendering';
 
 function App() {
 
@@ -50,7 +51,9 @@ const skills = ["Java", "Kotlin", "SpringBoot"]
       {/* <User
       /> */}
     <EventHandling/>
-    
+
+
+    <ConditionalRendering/>
     </div>
   );
 }
