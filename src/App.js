@@ -8,6 +8,7 @@ import MC from './components/MyComponent'; // nie trzeba aliasu
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
 import Employee from './components/Employee';
+import User from './components/User';
 
 function App() {
 
@@ -43,7 +44,10 @@ const skills = ["Java", "Kotlin", "SpringBoot"]
       data = {skills}
       /> */}
 
-      <Employee/>
+      {/* <Employee/> */}
+
+      <User
+      />
     </div>
   );
 }
